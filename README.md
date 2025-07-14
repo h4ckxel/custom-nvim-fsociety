@@ -9,9 +9,7 @@
 <div align="center">
 
 `fsociety.nvim - NeoVim Setup`
-
 `Custom NVIM by h4ckxel`
-
 `Inspired by Mr. Robot`
 
 </div>
