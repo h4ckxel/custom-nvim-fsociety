@@ -8,11 +8,11 @@
 
 <div align="center">
 
-fsociety.nvim - NeoVim Setup
+`fsociety.nvim - NeoVim Setup`
 
-Custom NVIM by h4ckxel
+`Custom NVIM by h4ckxel`
 
-Inspired by Mr. Robot
+`Inspired by Mr. Robot`
 
 </div>
 
