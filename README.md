@@ -2,7 +2,6 @@
 
 <div align="center">
 
-<img src="/images/dash-menu.png">
+<img src="/images/menu-dash.png">
 
 </div>
-
