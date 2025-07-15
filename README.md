@@ -51,7 +51,7 @@ Forget bloated IDEs and GUI editors. This is a setup for people who think in ter
 - Clean, muted colors — no rainbow nonsense
 
 ### 🧑‍💻 Development Ready
-- LSP installed via **Mason**:
+- LSP installed via **LazyExtras**:
   - Python, C, C++, Java, Web (HTML/CSS/JS)
 - **nvim-cmp** for autocompletion (buffers, path, LSP, snippets)
 - Treesitter highlighting for modern syntax precision
@@ -74,13 +74,13 @@ Forget bloated IDEs and GUI editors. This is a setup for people who think in ter
 - curl for [blink.cmp](https://github.com/Saghen/blink.cmp) (completion engine)
 - for [fzf-lua](https://github.com/ibhagwan/fzf-lua) (**_optional_**)
   - **fzf**: [fzf](https://github.com/junegunn/fzf) (**v0.25.1 or greater**)
-  - **live grep**: [ripgrep]()
-  - **find files**: [fd]()
+  - **live grep**: [ripgrep](https://github.com/BurntSushi/ripgrep)
+  - **find files**: [fd](https://github.com/sharkdp/fd)
 - a terminal that support true color and undercurl:
-    - [kitty]() (**Linux & Macos**)
-    - [wezterm]() (**Linux, Macos & Windows**)
-    - [alacritty]() (**Linux, Macos & Windows**)
-    - [iterm2]() (**Macos**)
+    - [kitty](https://github.com/kovidgoyal/kitty) (**Linux & Macos**)
+    - [wezterm](https://github.com/wezterm/wezterm) (**Linux, Macos & Windows**)
+    - [alacritty](https://github.com/alacritty/alacritty) (**Linux, Macos & Windows**)
+    - [iterm2](https://iterm2.com/) (**Macos**)
 
 ### 📥 Setup
 ```bash
@@ -99,18 +99,22 @@ First run will install plugins via `lazy.nvim` automatically.
 
 ```
 ~/.config/nvim
-├── init.lua               # Entry point
 ├── lua/
-│   ├── core/               # Options, keymaps, autocommands
-│   ├── plugins/            # Plugin setups
-│   ├── ui/                 # Themes, statusline, dashboard
-│   └── utils/              # Helper functions
-└── README.md               # This file
+│   ├── config/               # Options, keymaps, autocommands
+│   ├── plugins/              # Plugin setups
+├── spell/                    # Custom files .txt
+├── .neoconf.json
+├── init.lua                  # Entry point
+├── lazy/lock.json
+├── lazyvim.json
+├── LICENSE
+├── stylua.toml
+└── README.md                 # This file
 ```
 
 ---
 
-## 🚀 KEYBINDINGS OVERVIEW (Alpha Dashboard)
+## 🚀 KEYBINDINGS OVERVIEW (Dashboard)
 
 | Action             | Key |
 | ------------------ | --- |
@@ -130,33 +134,17 @@ First run will install plugins via `lazy.nvim` automatically.
 
 | Plugin           | Purpose                    |
 | ---------------- | -------------------------- |
-| `telescope`      | Fuzzy finder               |
+| `fzf`      | Fuzzy finder               |
 | `alpha-nvim`     | Start screen / dashboard   |
 | `lualine`        | Statusline aesthetic       |
 | `treesitter`     | Better syntax highlighting |
 | `gitsigns`       | Git inline signs           |
 | `toggleterm`     | Terminal integration       |
-| `mason`          | Manage LSP / Linters       |
+| `LazyExtras`          | Manage LSP / Linters       |
 | `nvim-lspconfig` | LSP configurations         |
 | `cmp-nvim-lsp`   | Completion                 |
 | `which-key`      | Keybinding cheatsheet      |
 | `lazy.nvim`      | Plugin management          |
-
----
-
-## 🎨 COLORS
-
-Primary Palette:
-
-```
-Background:   #1a1b26
-Foreground:   #c0caf5
-Accent Red:   #e06c75 (fsociety red)
-Accent Gray:  #565f89
-Cursor:       #ff5555
-```
-
-Colorscheme based on TokyoNight with custom tweaks for darker reds / greys.
 
 ---
 
@@ -187,9 +175,8 @@ Colorscheme based on TokyoNight with custom tweaks for darker reds / greys.
 ## 📝 INSPIRATION & CREDITS
 
 - **Mr. Robot / fsociety**
-- **Gentleman.nvim** (Framework inspiration)
+- [Gentleman.Dots](https://github.com/Gentleman-Programming/Gentleman.Dots) (Framework inspiration)
 - **LazyVim ecosystem**
-- **Hackers: The Movie (1995)**
 - **HackTheBox, OWASP, Arch Wiki**
 - Minimalist and Unixphile dotfile culture
 
@@ -210,6 +197,8 @@ Hack the planet.
 Own your tools, own your mind.
 ```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<div align="center">
 
-```
+━━━━━━━━━━━━━━━━ H A C K T H E P L A N E T ━━━━━━━━━━━━━━━━
+
+</div>
