@@ -85,7 +85,7 @@ Forget bloated IDEs and GUI editors. This is a setup for people who think in ter
 ### 📥 Setup
 ```bash
 # Clone the fsociety.nvim repo
-git clone https://github.com/h4ckxel/fsociety.nvim ~/.config/nvim
+git clone https://github.com/h4ckxel/fsociety.nvim/nvim ~/.config/nvim
 
 # Launch Neovim
 nvim
