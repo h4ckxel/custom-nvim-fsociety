@@ -35,22 +35,26 @@ Forget bloated IDEs and GUI editors. This is a setup for people who think in ter
 
 ---
 
-## 🛠️  CORE FEATURES
+## 🛠️ CORE FEATURES
 
 ### ⚡ Aesthetic
+
 - **ASCII banner:** Custom "fsociety" with quote on dashboard
 - Transparent / terminal-native looks
 
 ### 📂 Project Navigation
+
 - **fzf** for files, text search, live grep, buffers, sessions
 
 ### 🎨 UI
+
 - **Lualine** statusline: Hacker styled HUD look
 - No clutter, no icons overkill
 - Nerd Font ready
 - Clean, muted colors — no rainbow nonsense
 
 ### 🧑‍💻 Development Ready
+
 - LSP installed via **LazyExtras**:
   - Python, C, C++, Java, Web (HTML/CSS/JS)
 - **nvim-cmp** for autocompletion (buffers, path, LSP, snippets)
@@ -58,6 +62,7 @@ Forget bloated IDEs and GUI editors. This is a setup for people who think in ter
 - Git integration with **gitsigns.nvim**
 
 ### 🐚 Terminal Integration
+
 - ToggleTerm for scratchpads (hack-friendly terminal in buffer)
 
 ---
@@ -65,6 +70,7 @@ Forget bloated IDEs and GUI editors. This is a setup for people who think in ter
 ## 💾 INSTALLATION INSTRUCTIONS
 
 ### ⚙ Prerequisites
+
 - **LazyVim** ([Installation](https://www.lazyvim.org/installation))
 - Neovim >= **0.9.0** (needs to be built with **LuaJIT**)
 - Git >= **2.19.0** (for partial clones support)
@@ -77,19 +83,20 @@ Forget bloated IDEs and GUI editors. This is a setup for people who think in ter
   - **live grep**: [ripgrep](https://github.com/BurntSushi/ripgrep)
   - **find files**: [fd](https://github.com/sharkdp/fd)
 - a terminal that support true color and undercurl:
-    - [kitty](https://github.com/kovidgoyal/kitty) (**Linux & Macos**)
-    - [wezterm](https://github.com/wezterm/wezterm) (**Linux, Macos & Windows**)
-    - [alacritty](https://github.com/alacritty/alacritty) (**Linux, Macos & Windows**)
-    - [iterm2](https://iterm2.com/) (**Macos**)
+  - [kitty](https://github.com/kovidgoyal/kitty) (**Linux & Macos**)
+  - [wezterm](https://github.com/wezterm/wezterm) (**Linux, Macos & Windows**)
+  - [alacritty](https://github.com/alacritty/alacritty) (**Linux, Macos & Windows**)
+  - [iterm2](https://iterm2.com/) (**Macos**)
 
 ### 📥 Setup
+
 ```bash
 # Clone the fsociety.nvim repo
 git clone https://github.com/h4ckxel/fsociety.nvim/nvim ~/.config/nvim
 
 # Launch Neovim
 nvim
-````
+```
 
 First run will install plugins via `lazy.nvim` automatically.
 
@@ -134,13 +141,13 @@ First run will install plugins via `lazy.nvim` automatically.
 
 | Plugin           | Purpose                    |
 | ---------------- | -------------------------- |
-| `fzf`      | Fuzzy finder               |
+| `fzf`            | Fuzzy finder               |
 | `alpha-nvim`     | Start screen / dashboard   |
 | `lualine`        | Statusline aesthetic       |
 | `treesitter`     | Better syntax highlighting |
 | `gitsigns`       | Git inline signs           |
 | `toggleterm`     | Terminal integration       |
-| `LazyExtras`          | Manage LSP / Linters       |
+| `LazyExtras`     | Manage LSP / Linters       |
 | `nvim-lspconfig` | LSP configurations         |
 | `cmp-nvim-lsp`   | Completion                 |
 | `which-key`      | Keybinding cheatsheet      |
@@ -168,7 +175,7 @@ First run will install plugins via `lazy.nvim` automatically.
 - **Font:** Hack Nerd Font Mono / JetBrains Mono NF
 - **Compositor:** Picom for transparency
 - **WM:** Hyprland / Sway / BSPWM
-- **Colors:** TokyoNight Storm / Nord / Dracula (adjusted to fsociety red)
+- **Colors:** Desert in Nvim / Nord / Dracula (adjusted to fsociety red)
 
 ---
 
@@ -202,3 +209,4 @@ Own your tools, own your mind.
 ━━━━━━━━━━━━━━━━ H A C K T H E P L A N E T ━━━━━━━━━━━━━━━━
 
 </div>
+
